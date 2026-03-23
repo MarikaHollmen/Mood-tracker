@@ -1,0 +1,204 @@
+ body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #97c5f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.5;
+
+}
+
+ .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.mood-picker { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.mood-picker button {
+    font-size: 3rem;
+    padding: 12px 6px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.mood-picker button:hover {
+    background: #4964d6;
+    transform: scale(1.08);
+}
+
+.mood-picker button.selected {
+    border-color: #4964d6;
+    background: #e6f0ff;
+    box-shadow: 0 0 0 4px rgba(73, 100, 214, 0.2);
+    transform: scale(1.12);
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+textarea {
+    width: 97%;
+    min-height: 100px;
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+#save-btn {
+    margin-top: 12px;
+    width: 100%;
+    background: #4964d6;
+    color:white;
+    border:none;
+    padding: 14px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#save-btn:hover {
+    background: #2e3a8c;
+}
+
+#filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 16px 0;
+}
+
+#filter button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #f9f9f9;
+    cursor: pointer;
+}
+#filter button:hover {
+    background:#e6f0ff;
+}
+#filter button.active {
+    border-color: #4964d6;
+    background: #e6f0ff;
+    font-weight: 700; /* Bold*/
+}
+.entry {
+    padding: 16px 0; /*Spacing*/
+    border-bottom: 1px solid #eee; /*Separator*/
+    display: flex;
+    justify-content: space-between; /*text left, button*/
+    align-items: flex-start; /*Align top*/
+    gap: 16px; /*Spacing between text and button*/
+}
+.entry button {
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+.entry button:hover {
+    background: #cc0000;
+}
+
+#stats { /*Statsbox*/
+    margin: 16px 0;
+    padding: 12px;
+    background: #f0f8ff;
+    border-radius: 8px;
+}
+
+.tools { /*Toolbar row*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.tools input { /*Search input*/
+flex: 1 1 240px;
+padding: 10px;
+border: 1px solid #ccc; /* Border*/
+border-radius: 10px;
+font-size: 1rem;
+}
+    
+#clearAllBtn {/* Clear all button*/
+    background: #ef4444;
+    color: #fff; /* Text color*/
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#darkModeBtn{ /*Dark mode button*/
+    background: #111827;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.weekly { /*Weekly summary box*/
+    margin: 10px 0 16px 0;
+    padding: 12px;
+    background: #ecfeff;
+    border-radius: 10px;
+    border: 1px solid #c7f9ff;
+}
+
+body.dark  { /*Darka are on body*/
+    background: #0b1220; /*background*/
+    color: #e5e7eb; /*text color*/
+}
+
+body.dark .container {
+    background: #2d3748;
+}
+
+body.dark textarea{ /*Dark textarea*/
+    background: #0b1220;
+    color: #e5e7eb;
+    border-color: #334155;
+}
+
+body.dark .tools input{ /*Dark search input*/
+    background: #0b1220;
+    color: #e5e7eb;
+    border-color: #334155;
+}
+
+body.dark #stats {
+    background: #0b1220;
+}
+body.dark .weekly {
+    background: #0b1220;
+    border-color: #334155;
+}
+
+
+    

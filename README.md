@@ -3,6 +3,7 @@
 A clean, single-page mood and activity tracker built with **vanilla HTML, CSS, and JavaScript**. This project was developed as part of the Web Applications course at **Laurea University of Applied Sciences**.
 
 **Live Demo:** (https://marikahollmen.github.io/Mood-tracker/) 
+
 **Repository:** https://github.com/MarikaHollmen/Mood-tracker.git
 
 ## Features

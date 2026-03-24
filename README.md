@@ -63,3 +63,18 @@ I also spent time fine-tuning the user interface to make it more personal. I mad
 
 ### Dark Mode
 ![Main UI Dark](screenshot-dark.png)
+
+### Project Presentation Video
+https://laureauas-my.sharepoint.com/:v:/g/personal/mah00160_laurea_fi/IQCAD127Mf2eS58AEpDih8pjAXbCBZ8B73bqi58XMIh1-Y4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DmaaBi
+
+
+**Video Timestamps:**
+* **0:00** Introduction & project structure in VS Code
+* **0:45** CSS styling and UI layout
+* **1:15** JavaScript logic (LocalStorage & functions)
+* **2:03** GitHub repository walkthrough
+* **2:53** Live Demo: Using the application
+* **3:10** Creating a new entry
+* **3:45** Filtering and search functionality
+* **4:05** Dark Mode demonstration
+* **4:30** Reflection and wrap-up

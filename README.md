@@ -1,4 +1,4 @@
-# MoodFlow — Mood & Activity Tracker
+# Mood & Activity Tracker
 
 A clean, single-page mood and activity tracker built with **vanilla HTML, CSS, and JavaScript**. This project was developed as part of the Web Applications course at **Laurea University of Applied Sciences**.
 

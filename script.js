@@ -232,8 +232,8 @@ function moodScore(mood) { // Helper to assign a numeric score to each mood
   if (mood === "happy") return 5 //
   if (mood === "good") return 4
   if (mood === "neutral") return 3
-  if (mood === "bad") return 2
-  if (mood === "sad") return 1 //Lower score for sad mood
+  if (mood === "sad") return 2
+  if (mood === "stressed") return 1 //Lower score for sad mood
   return 0 // Default score for unknown moods
 } // End moodScore
 
